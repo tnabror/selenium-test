@@ -55,8 +55,8 @@ public class AppTest
     	WebElement bLogin = driver.findElement(By.xpath(".//*[@id='u_0_2']"));
     	
     	
-    	fEmail.sendKeys("a8_r0r@yahoo.co.id");
-    	fPass.sendKeys("ulfamardiyah");
+    	fEmail.sendKeys("a8_***@yahoo.co.id");
+    	fPass.sendKeys("****");
     	bLogin.click();
     	
     	dWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='u_0_1d']/div/div[2]/textarea")));
